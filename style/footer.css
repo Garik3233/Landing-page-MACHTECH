@@ -1,0 +1,80 @@
+.footer {
+  margin-top: 5em;
+  position: relative;
+  background-image: url(../images/vetor6.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  text-align: center;
+}
+
+.footer-logo {
+  width: 160px;
+  height: 180px;
+}
+.footer-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.footer-vetor {
+  height: 190px;
+  margin: 2px;
+}
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 40px;
+}
+
+.footer-nav__link {
+  font-size: 16px;
+  font-family: var(--fonte);
+  color: var(--white);
+  line-height: 40px;
+  transition: 1s;
+  font-weight: bold;
+}
+
+.footer-nav__link:hover {
+  color: var(--destaque);
+}
+
+.footer-socialize {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-list2 img {
+  margin-right: 15px;
+}
+.footer-nav__text {
+  font-size: 16px;
+  font-family: var(--fonte);
+  color: var(--white);
+  font-weight: bold;
+}
+
+.footer-line {
+  width: 1272px;
+  height: 0;
+  border: 1px solid rgba(192, 183, 232, 0.33);
+}
+
+.footer-rights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-rights p {
+  font-family: var(--fonte);
+  color: var(--white);
+  font-size: 14px;
+  margin: 3em;
+}

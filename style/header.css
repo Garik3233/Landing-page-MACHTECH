@@ -1,0 +1,83 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.header-hydra {
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.header-hydra__logo {
+  width: 6rem;
+}
+
+.header-hydra__name {
+  width: 4rem;
+}
+
+.header__menu {
+  font-family: var(--fonte);
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  gap: 2.5rem;
+}
+
+.header__menu__link {
+  color: var(--white);
+  text-transform: uppercase;
+  justify-content: space-between;
+  transition: var(--transitionAll);
+}
+
+.header__menu__link:hover {
+  color: var(--destaque);
+}
+
+.header-btn__contact {
+  background-color: transparent;
+  color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 40px;
+  width: 154px;
+  height: 48px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  margin-right: 40px;
+  transition: var(--transitionAll);
+}
+
+.header-btn__contact:hover {
+  background: var(--gradientebotao);
+  color: var(--roxoescuro);
+  border: none;
+}
+
+.btn-md {
+  background: var(--gradientebotao);
+  color: var(--roxoescuro);
+  border: none;
+  border-radius: 40px;
+  width: 154px;
+  height: 48px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  transition: var(--transitionAll);
+}
+
+.btn-md:hover {
+  color: var(--destaque);
+  background: transparent;
+  border: 1px solid var(--destaque);
+}
